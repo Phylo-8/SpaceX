@@ -1,0 +1,356 @@
+*
+{
+	box-sizing:border-box;
+	
+}
+
+body
+{
+	margin:0px;
+}
+
+.nav
+{
+	background-image:url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnQ4ZGk2NzA5ODNocGxlMGx3aDB1c2l0NDJjOHE5aHJzNGNoc21zbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mi6DsSSNKDbUY/giphy.gif");
+	height:624px;
+}
+.header
+{
+	background-color:black;
+	width:100%;
+	height:50px;
+	position:fixed;
+	top:0px;
+}
+
+.logo
+{
+	width:10%;
+	padding:0.5%;
+	margin-top:-10px;
+}
+
+.list
+{
+	gap:2%;
+	margin-left:1%;
+}
+
+.lts
+{
+	margin-top:0.5%;
+	font-size:15px;
+}
+
+.events
+{
+	border:1px solid grey;
+	padding:0.5%;
+	margin-left:6%;
+	width:13%;
+}
+
+span
+{
+	color:white;
+}
+
+.dtp
+{
+	background-color:rgba(247, 250, 244, 0);
+	width:40%;
+	height:30%;
+	top:50%;
+	left:2%;
+	position:absolute;
+}
+
+.dte
+{
+	font-size:20px;
+}
+.dte2
+{
+	font-size:45px;
+}
+
+.watch
+{
+	background-color:rgba(247, 250, 244, 0.5);
+	padding:1.7%;
+	width:20%;
+	text-align:center;
+	height:20%;
+	margin-top:5%;
+}
+
+.icn
+{
+	margin-left:2%;
+	font-size:15px;
+}
+
+.watch:hover
+{
+	background-color:black;
+	color:white;
+}
+
+.moon
+{
+	position:relative;
+}
+
+.moon1
+{
+	background-image:url("https://www.shutterstock.com/shutterstock/videos/23414701/thumb/11.jpg?ip=x480");
+	height:690px;
+}
+
+.minfo
+{
+	background-color:rgba(247, 250, 244, 0);
+	width:40%;
+	height:50%;
+	top:30%;
+	right:7%;
+	position:absolute;
+}
+
+.mhd
+{
+	font-size:60px;
+}
+
+.dps
+{
+	color:white;
+	margin-top:3%;
+}
+
+.expe
+{
+	border:1px solid white;
+	padding:1.5%;
+	width:25%;
+	text-align:center;
+	height:10%;
+	margin-top:5%;
+}
+
+.expe:hover{
+	background-color:white;
+	color:black;
+}
+
+.lnch
+{
+	background-image:url("https://twistedsifter.com/wp-content/uploads/2012/05/nasa-rocket-launch-high-quality-6.jpg");
+	height:700px;
+	position:relative;
+}
+
+.rckt
+{
+	background-color:rgba(247, 250, 244, 0);
+	width:40%;
+	height:35%;
+	top:20%;
+	right:16%;
+	position:absolute;
+}
+
+.rhd
+{
+	font-size:35px;
+	font-weight:bold;
+}
+
+.lm
+{
+	border:1px solid white;
+	padding:1.7%;
+	width:25%;
+	text-align:center;
+	height:15%;
+	margin-top:5%;
+}
+
+.lm:hover
+{
+	background-color:black;
+	color:white;
+}
+
+.land
+{
+	background-image:url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2ZoZmN0N2w4Mmk4djc1MzI5bDZrcTJyd2VvbmluenhwZm1hMHQyayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohs4gSs3V0Q7qOtKU/giphy.gif");
+	height:700px;
+	position:relative;
+}
+
+.lnd
+{
+	background-color:rgba(247, 250, 244, 0);
+	width:40%;
+	height:50%;
+	top:20%;
+	left:5%;
+	position:absolute;
+	
+}
+
+.lhd
+{
+	font-size:50px;
+}
+
+.clr
+{
+	color:black;
+}
+
+.lbt
+{
+	border:1px solid black;
+	padding:1.7%;
+	width:35%;
+	text-align:center;
+	height:10%;
+	margin-top:3%;
+}
+
+.lbt:hover
+{
+	background-color:black;
+	color:white;
+}
+
+.astrn
+{
+	background-image:url("https://cdn.mos.cms.futurecdn.net/v2/t:0,l:213,cw:1280,ch:960,q:80,w:1280/ukGm36yejXXngBLZNmS9h4.jpg");
+	height:700px;
+	position:relative;
+}
+
+.astr
+{
+	background-color:rgba(247, 250, 244, 0);
+	width:40%;
+	height:40%;
+	top:18%;
+	left:5%;
+	position:absolute;
+	
+}
+
+.ahd
+{
+	font-size:40px;
+}
+
+.msn
+{
+	border:1px solid lightgrey;
+	padding:1.7%;
+	width:35%;
+	text-align:center;
+	height:13%;
+	margin-top:4%;
+}
+
+.msn:hover
+{
+	background-color:black;
+	color:white;
+}
+
+.stlt
+{
+	background-image:url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzVtOGpnOXgxaGpyZnVpejRrYjNxZHM1MW1yOTI0bDU0d210d2FrMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Jm0SEDQbCy856RXFDU/giphy.gif");
+	height:700px;
+	position:relative;
+}
+
+.astr
+{
+	background-color:rgba(247, 250, 244, 0);
+	width:45%;
+	height:40%;
+	top:30%;
+	left:5%;
+	position:absolute;
+	
+}
+
+.ftr
+{
+	background-color:black;
+	width:100%;
+	height:45px;
+}
+
+.trt
+{
+	font-size:20px;
+	background-color:#080616;
+	border-radius:30px;
+	
+}
+
+.twtr
+{
+	margin-left:2%;
+}
+
+.ftl
+{
+	gap:8%;
+	margin-left:30%;
+	font-size:15px;
+	width:36%;
+	height:20px;
+	
+}
+
+.white
+{
+	color:white;	
+}
+
+.cprt
+{
+	color:white;
+	font-size:15px;
+	margin-left:20%;
+}
+
+.bck-edit
+{
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.pd
+{
+	padding:1%;
+}
+
+.flex
+{
+	display:flex;
+}
+
+.zid
+{
+	z-index:-1;
+}
+
+.fwb
+{
+	font-weight:bold;
+}
+
+
+
